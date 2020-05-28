@@ -59,7 +59,8 @@
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="freaky" />
   <project path="packages/apps/ConfigCenter" name="packages_apps_ConfigCenter" remote="freaky" />
   <project path="packages/apps/WallBucket" name="packages_apps_WallBucket" remote="freaky" />
- 
+  <project path="packages/apps/FreakyGraveyard" name="packages_apps_FreakyGraveyard" remote="freaky" />
+
   <!-- System Repos -->
   <project path="system/bt" name="system_bt" remote="freaky" />
   <project path="system/core" name="system_core" remote="freaky" />
