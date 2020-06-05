@@ -167,7 +167,7 @@ Submitting Patches
 ==================
 >> FreakyOS is an open source project thus any patches/contributions are always welcome !
 
->> To begin with, you need to login to our code review system at [FreakyOS Code Review](http://FreakyOS.me)
+>> To begin with, you need to login to our code review system at [FreakyOS Code Review](http://freakyos.xyz)
 
 >> We support login using Github Oauth provider, which means if you have either of account you can login to gerrit by that account.
 It is important that you set the USERNAME in your account on gerrit. If you have logged in using Github account then your Github USERNAME will be used as gerrit USERNAME automatically. Else you can set unique username in `Profile` section of gerrit account Settings.
@@ -184,10 +184,10 @@ It is important that you set the USERNAME in your account on gerrit. If you have
 - [Always make sure to clone ssh with commit msg-hook]
 
 ```bash
-      $ git clone "ssh://$USERNAME@FreakyOS.me:29418/FreakyOS/official_devices" && scp -p -P 29418 $USERNAME@FreakyOS.me:hooks/commit-msg "official_devices/.git/hooks/"
+      $ git clone "ssh://$USERNAME@freakyos.xyz:29418/FreakyOS/official_devices" && scp -p -P 29418 $USERNAME@freakyos.xyz:hooks/commit-msg "official_devices/.git/hooks/"
 ```
 
->> For Example -  git clone "ssh://bunnyy@FreakyOS.me:29418/FreakyOS/official_devices" && scp -p -P 29418 bunnyy@FreakyOS.me:hooks/commit-msg "official_devices/.git/hooks/"
+>> For Example -  git clone "ssh://bunnyy@freakyos.xyz:29418/FreakyOS/official_devices" && scp -p -P 29418 bunnyy@freakyos.xyz:hooks/commit-msg "official_devices/.git/hooks/"
 
 ```bash
       $ cd CLONED_DIRECTORY
@@ -205,7 +205,7 @@ It is important that you set the USERNAME in your account on gerrit. If you have
 >> If you have satisfied with the changes you made then you can upload the patchset to gerrit.
 
 ```bash
-      $ git push ssh://USERNAME@FreakyOS.me:29418/PROJECT_NAME HEAD:refs/for/still_alive
+      $ git push ssh://USERNAME@freakyos.xyz:29418/PROJECT_NAME HEAD:refs/for/still_alive
 ```
 
 >> Here the PROJECT_NAME is the path to repository on gerrit. You can find the PROJECT_NAME by navigating to the `Projects` section on gerrit.
@@ -230,7 +230,7 @@ It is important that you set the USERNAME in your account on gerrit. If you have
 
 >> Gerrit will recognize it as a new patchset in an exisiting commit.
 
->> To view the status of your and/or others patches, visit [FreakyOS Code Review](http://FreakyOS.me)
+>> To view the status of your and/or others patches, visit [FreakyOS Code Review](http://freakyos.xyz)
 
 <p align="center">
 #<!--img src="https://i.postimg.cc/3xyYzDS4/About-Phone-Transparent-v2-6.png" --> 
