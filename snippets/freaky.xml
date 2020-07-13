@@ -3,7 +3,8 @@
 
   <remote name="freaky"
           fetch="https://github.com/FreakyOS"
-          revision="still_alive" />
+          revision="still_alive"
+          review="freakyos.xyz" />
 
   <remote name="freaky-devices"
           fetch="https://github.com/FreakyOS-Devices"
