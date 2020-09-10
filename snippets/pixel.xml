@@ -105,6 +105,7 @@
   <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="pixel" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="pixel" />
   <!--project path="packages/apps/Recorder" name="packages_apps_Recorder" remote="pixel" /-->
+  <project path="packages/apps/PermissionController" name="packages_apps_PackageInstaller" remote="pixel" />
   <project path="packages/apps/Traceur" name="packages_apps_Traceur" remote="pixel" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="pixel" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="pixel" />
