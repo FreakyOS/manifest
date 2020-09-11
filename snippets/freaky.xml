@@ -14,6 +14,7 @@
   <project path="external/skia" name="external_skia"  remote="freaky" />
   <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="freaky" />
   <project path="external/airbnb-lottie" name="external_airbnb-lottie" remote="freaky" />
+  <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="freaky"/>
   
   <!-- Hardware repos -->
   <project path="hardware/qcom-caf/msm8952/media" name="hardware_qcom-caf_msm8952_media" remote="freaky" />
