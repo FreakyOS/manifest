@@ -123,6 +123,7 @@
   <project path="external/icu" name="external_icu" remote="pixel" />
   <project path="external/libcxx" name="external_libcxx" remote="pixel" />
   <project path="external/libhevc" name="external_libhevc" remote="pixel" />
+  <project path="external/motorola/faceunlock-res" name="external_motorola_faceunlock-res" remote="pixel" />
   <project path="external/selinux" name="external_selinux" remote="pixel" />
   <project path="external/sonivox" name="external_sonivox" remote="pixel" />
   <project path="external/tinyalsa" name="external_tinyalsa" remote="pixel" />
