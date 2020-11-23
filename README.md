@@ -1,7 +1,7 @@
 <p align="center">
 #<!--img src="https://i.postimg.cc/3xyYzDS4/About-Phone-Transparent-v2-6.png" --> 
 
-FreakyOS Android Q 2020
+FreakyOS Android R 2020
 ==================================================
 
 [![Download FreakyOS](https://img.shields.io/sourceforge/dd/FreakyOS.svg)](https://sourceforge.net/projects/FreakyOS/files/)
@@ -84,7 +84,7 @@ How to build FreakyOS ROM for your device - Tutorial
 ##### Initializing the $WORKSPACE repo and downloading the manifest
 
 ```bash
-      $  repo init --depth=1 -u https://github.com/FreakyOS/manifest.git -b still_alive
+      $  repo init --depth=1 -u https://github.com/FreakyOS/manifest.git -b never_dead 
 ```
 
 ##### Syncing the source
@@ -205,7 +205,7 @@ It is important that you set the USERNAME in your account on gerrit. If you have
 >> If you have satisfied with the changes you made then you can upload the patchset to gerrit.
 
 ```bash
-      $ git push ssh://USERNAME@freakyos.xyz:29418/PROJECT_NAME HEAD:refs/for/still_alive
+      $ git push ssh://USERNAME@freakyos.xyz:29418/PROJECT_NAME HEAD:refs/for/never_dead
 ```
 
 >> Here the PROJECT_NAME is the path to repository on gerrit. You can find the PROJECT_NAME by navigating to the `Projects` section on gerrit.
