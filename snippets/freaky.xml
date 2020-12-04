@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="freaky"
+          fetch="https://github.com/FreakyOS"
+          revision="never_dead"
+          review="freakyos.xyz" />
+
+  <remote name="freaky-devices"
+          fetch="https://github.com/FreakyOS-Devices"
+          revision="never_dead" />
+
+  <!-- External repos -->
+  <!--project path="external/skia" name="external_skia"  remote="freaky" />
+  <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="freaky" />
+  <project path="external/airbnb-lottie" name="external_airbnb-lottie" remote="freaky" />
+  <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="freaky"/> -->
+
+  <!-- Hardware repos -->
+  <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="freaky" />
+
+  <!-- Framework repos -->
+  <project path="frameworks/av" name="frameworks_av" remote="freaky" />
+  <project path="frameworks/base" name="frameworks_base" remote="freaky" />
+  <project path="frameworks/native" name="frameworks_native" remote="freaky" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="freaky" />
+
+  <!-- General repos -->
+  <project path="build/make" name="build" remote="freaky">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" remote="freaky" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="manifest" name="manifest" remote="freaky" />
+  <project path="vendor/freaky" name="vendor_freaky" remote="freaky" />
+  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="freaky" />
+
+  <!-- Packages repos -->
+  <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="freaky" />
+  <!--project path="packages/apps/MusicFX" name="packages_apps_MusicFX" remote="freaky"
+  <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="freaky" />
+  <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="freaky" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="freaky" />
+  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="freaky" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="freaky" /> /-->
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="freaky" />
+  <project path="packages/apps/Snap" name="packages_apps_Snap" remote="freaky" />
+  <project path="packages/apps/Updates" name="packages_apps_Updates" remote="freaky" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="freaky" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="freaky" />
+  <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="freaky" />
+
+  <!-- System Repos -->
+  <project path="system/bt" name="system_bt" remote="freaky" />
+  <project path="system/core" name="system_core" remote="freaky" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="freaky" />
+  <project path="system/netd" name="system_netd" remote="freaky" />
+
+</manifest>
