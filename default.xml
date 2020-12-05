@@ -854,4 +854,7 @@
   <!-- Add all PixelExperience repos -->
   <include name="snippets/pixel.xml" />
 
+  <!-- Add all FreakyOS repos -->
+  <include name="snippets/freaky.xml" />
+
 </manifest>
