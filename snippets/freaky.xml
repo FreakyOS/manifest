@@ -54,7 +54,7 @@
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="freaky" /> /-->
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="freaky" />
   <project path="packages/apps/Snap" name="packages_apps_Snap" remote="freaky" />
-  <project path="packages/apps/Updates" name="packages_apps_Updates" remote="freaky" />
+  <!--project path="packages/apps/Updates" name="packages_apps_Updates" remote="freaky" /-->
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="freaky" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="freaky" />
 
